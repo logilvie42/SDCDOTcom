@@ -1,0 +1,121 @@
+* {
+    
+    padding: 0;
+    box-sizing: content-box;
+}
+
+html{
+    background-color: #362B2F;
+    color: #D1D1D1;
+    font-family: "National Park", "Bookman", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility; 
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.logo img {
+    margin: 90px 50px;
+    float: left;
+    height: 150px;
+    width: auto;
+    border-radius: 100%;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/madison.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 100vh;
+}
+
+h1{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-right: 175px;
+    color: #ffa801;
+    font-size: 240%;
+    font-weight: 350;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    float: right;
+}
+
+
+/*----------------------- NAV BAR-----------------------------------*/
+
+.nav-bar {
+    float:right;
+    list-style: none;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+.nav-bar-text{
+    margin-top: 100px;
+    margin-left: 25px;
+    position: relative;
+}
+
+.nav-bar li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+/*----------------------- BUTTONS-----------------------------------*/
+
+.btn:link,
+.btn:visited {
+    display: inline-table;
+    margin-left: 25px;
+    padding: 10px 30px; 
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 4s, border 3s, color 2s;
+}
+
+.btn-watch:link,
+.btn-watch:visited{
+    margin-right: 2px;
+    border: 1px solid #ffa801; 
+    background-color: #362B2F;
+    color: #d1d1d1;
+}
+
+.btn-about:link,
+.btn-about:visited{
+    margin-right: 2px;
+    border: 1px solid #ffa801; 
+    background-color: #362B2F;
+    color: #d1d1d1;
+
+}
+
+.btn-contact:link,
+.btn-contact:visited{
+    margin-right: 2px;
+    border: 1px solid #ffa801; 
+    background-color: #362B2F;
+    color: #d1d1d1;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #cf6d17;
+}
+
+.btn-watch:hover,
+.btn-watch:active {
+    border: 1px solid #cf6d17;
+}
+
+.btn-about:hover,
+.btn-about:active {
+    border: 1px solid #cf6d17;
+    color: #fff;
+}
