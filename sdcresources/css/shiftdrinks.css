@@ -15,10 +15,10 @@ body {
     color: #D1D1D1;
     font-family: "Montserrat", "Bookman", sans-serif;
     font-weight: 300;
-    max-width: 1455px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
 }
+
 
 .clearfix {zoom: 1}
 .clearfix::after {      /* This will clear a float after an element*/
@@ -33,10 +33,7 @@ body {
 /* REUSEABLE COMPONENTS */
 /*----------------------------*/
 
-.row {
-    max-width: 1140px;
-    margin: 0 auto;
-}
+
 
 
 /*----------------------------*/
@@ -157,24 +154,21 @@ input[type=submit],
 .watch-features {
     background-color: #ffa801;
     max-width: 100vw;
-    margin-bottom: 25px;
 }
 
 
 .standard {
     width: 40vw;
-    height: calc(30vw *(9/16));
+    height: calc(40vw *(9/16));
     padding: 2%;
-    max-width: 568px;
-    max-height: 240px;
  }
 
 iframe { border: none; }
 
 .top-row,
-.bottom-row { margin-left: 10%; }
+.bottom-row { margin-left: 5%; }
 
-.bottom-row { margin-bottom: -30px; }
+
 
 .watch-features a { 
     padding: 2% 2%;
@@ -182,8 +176,9 @@ iframe { border: none; }
     text-decoration: none;
     text-align: center;
     font-family: "Pacifico";
+    font-size: calc(20px + 0.5vw);
     font-weight: 150;
-    letter-spacing: 1px;
+    letter-spacing: 1px; 
 }
 
 .watch-features h3{ margin-bottom: 1%; }
