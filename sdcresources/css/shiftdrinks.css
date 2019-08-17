@@ -48,7 +48,7 @@ header {
     background-size: cover;
     background-position: center; 
     background-attachment: fixed;
-    height: 100vh;
+    height: 80vh;
 }
 
 
@@ -77,15 +77,15 @@ h2 {
     text-align: center;
     font-family: 'Pacifico', cursive;
     text-shadow: 1px #362B2F;
+    font-size: calc(70px + 0.5vw);
+
 }
 h1 {
     margin-top: 125px;
-    font-size: 440%;
     font-weight: 400;
 }
 
 h2 {
-    font-size: 340%;
     font-weight: 200;
 }
 
@@ -347,7 +347,7 @@ footer {
 
 .social-links{ 
     list-style: none; 
-    float: right;
+    float: center;
 }
 
 .social-links li{ 
