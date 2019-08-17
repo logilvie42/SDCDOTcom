@@ -1,0 +1,73 @@
+
+* {box-sizing: border-box;}
+
+html,
+body {
+    background-color: #362B2F;
+    color: #D1D1D1;
+    font-family: "Montserrat", "Bookman", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+header{ margin-top: 10%;}
+
+h1 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: 20%;
+    margin-left: 20%;
+    color: #ffa801;
+    text-shadow: #D1D1D1;
+    letter-spacing: 7px;
+    word-spacing: 2px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 10px #362B2F;
+    font-weight: 250;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #ffa801;
+  font-weight: 200;
+  text-align: center;
+}
+
+p {
+  text-align: left;
+  padding: 5px 20px;
+}
+
+span{ color: #fff; }
+
+/* The actual bingo game */
+table{
+  align-content: center;
+  border: 2px solid #000;
+  border-radius: 5px;
+  background-color: #ffa801;
+}
+
+th{
+  background-color: #423f3f;
+  border-radius: 5px;
+  height: 70px;
+  width: 170px;
+  text-align: center;
+  color: #ffa801;
+  font-size: 15px;
+  padding: 10px 10px;
+}
+
+th img{
+  height: 70px;
+  width: auto;
+  border-radius: 50%;
+}
+
+
+

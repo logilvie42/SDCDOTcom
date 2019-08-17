@@ -1,0 +1,83 @@
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+        <img src="img/blake.jpg">
+       <h3>Blake <span>Studwell</span></h3>
+       <h4>Director of Photography</h4>
+    </div>
+    <div class="flip-box-back">
+      <p>This is blake. All I know is his mother probably passed in the last year or two, he's moved away from his home (and past), and used to go by Fred. It's confusing to his buddy Christian who also works with us.</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+        <img src="img/dom.jpg">
+       <h3>Dominick <span>Racano</span></h3>
+       <h4>Asst. Director, Producer, and Writer</h4>
+    </div>
+    <div class="flip-box-back">
+      <p>Dom is a Catholic guy from the Bronx. His hobbies include not knowing languages and speaking them poorly, never asking futher questions, and being surprised when things aren't the way he thought they were.</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+        <img src="img/lee.jpg">
+       <h3>Lee <span>Ogilvie</span></h3>
+       <h4>Producer, Writer, Web Developer</h4>
+    </div>
+    <div class="flip-box-back">
+      <p>Manages our YouTube page, our Patreon, and made all the disgusting props in <a href="https://www.youtube.com/watch?v=rVFy9eoIYuI&t=1s"> "Fried Chicken."</a> She also made this website from complete scratch.</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+        <img src="img/emperor.jpg">
+       <h3>Jason <span>Kim</span></h3>
+       <h4>Producer and writer</h4>
+    </div>
+    <div class="flip-box-back">
+      <p>Known to us as "The Emperor," he rules us all with an iron fist. A self-proclaimed sex addict, he also has a dog grooming business. The two are definitely mutually exclusive.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col span-1-of-5 about-box">
+            <img src="img/ken.jpg">
+            <h3>Ken <span>MacLaughlin</span></h3>
+            <h4>Director, Producer, Writer</h4>
+            <p>This is Ken's bio. He is a man of many talents and mystery. Until he tells us more about himself. Here's some more generic text to test to proportions I've made.</p>
+            
+<div class="col span-1-of-5 about-box">
+            <img src="img/blake.jpg">
+            <h3>Blake <span>Studwell</span></h3>
+            <h4>Director of Photography</h4>
+            <p>This is blake. All I know is his mother probably passed in the last year or two, he's moved away from his home (and past), and used to go by Fred. It's confusing to his buddy Christian who also works with us.</p>
+        </div>
+        <div class="col span-1-of-5 about-box">
+            <img src="img/dom.jpg">
+            <h3>Dominick <span>Racano</span></h3>
+            <h4>Asst. Director, Producer, and Writer</h4>
+            <p>Dom is a Catholic guy from the Bronx. His hobbies include not knowing languages and speaking them poorly, never asking futher questions, and being surprised when things aren't the way he thought they were. </p>
+            </div>
+        
+        <div class="col span-1-of-5 about-box">
+            <img src="img/emperor.jpg">
+            <h3>Jason <span>Kim</span></h3>
+            <h4>Producer and writer</h4>
+            <p>Jason Kim, known to us as "The Emperor," rules us all with an iron fist. A self-proclaimed sex addict, he also has a dog grooming business. The two are definitely mutually exclusive. </p>
+        </div>
+        
+        <div class="col span-1-of-5 about-box">
+            <img src="img/lee.jpg">
+            <h3>Lee <span>Ogilvie</span></h3>
+            <h4>Producer, Writer, Web Developer</h4>
+            <p>Manages our YouTube page, our Patreon, and made all the disgusting props in <a href="https://www.youtube.com/watch?v=rVFy9eoIYuI&t=1s"> "Fried Chicken."</a> She also made this website from complete scratch.</p>
