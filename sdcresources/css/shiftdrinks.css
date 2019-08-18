@@ -60,7 +60,7 @@ header {
 
 .blurb { 
     text-align: center;
-    max-width: 75ch;
+    max-width: 70vw;
 }
 
 /*----------------------------*/
@@ -291,7 +291,6 @@ span { color: #ffa801; }
 
 .cheating {
     margin-left: 10%;
-    float: inline-start;
 }
 .cheating a {
     float: inline-start; 
