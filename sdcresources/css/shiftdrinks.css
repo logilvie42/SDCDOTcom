@@ -47,18 +47,6 @@ body {
     flex-wrap: wrap;
 }
 
-.contactParent {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around
-    align-content: center;
-}
-
-.contactChild {
-    flex: 1;
-    margin: auto;
-}
-
 /*----------------------------*/
 /* GRID ELEMENTS */
 /*----------------------------*/
@@ -71,25 +59,33 @@ body {
     justify-items: center;
 }
 
+.contactChildOne,
 .watchChildOne {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
 }
-
+.contactChildTwo,
 .watchChildTwo {
     grid-column: 2 / 2;
     grid-row: 1 / 2;
 }
-
+.contactChildThree,
 .watchChildThree {
     grid-column: 1 / 2;
     grid-row: 2 / 2;
 }
-
+.contactChildFour,
 .watchChildFour {
     grid-column: 2 / 2;
     grid-row: 2 / 2;
 }
+
+.contactParent { 
+    display: flex;
+    justify-content: space-around;
+}
+
+
 
 /*----------------------------*/
 /* HEADER  */
@@ -114,8 +110,6 @@ header {
 }
 
 .blurb { 
-    text-align: center;
-    max-width: 75ch;
     display: contents;
 }
 
@@ -345,7 +339,7 @@ span { color: #ffa801; }
 }
 
 
-.cheating a {
+.contact-sdc a {
     float: inline-start; 
     color: white;
     text-align: center;
@@ -359,21 +353,6 @@ span { color: #ffa801; }
     list-style: none;
     position: relative; }
 
-.contactParent {
-    display: inline;
-}
-
-.contactChild { 
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-}
-
-.email,
-.patreon { 
-    flex: 2;
-    flex-wrap: nowrap;
-}
 
 i {
     margin-bottom: 10px;
