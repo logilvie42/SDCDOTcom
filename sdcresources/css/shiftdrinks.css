@@ -33,7 +33,10 @@ body {
 /* REUSEABLE COMPONENTS */
 /*----------------------------*/
 
-
+.cheating {
+    margin-left: 10%;
+    float: inline-start;
+}
 
 
 /*----------------------------*/
@@ -89,13 +92,7 @@ h2 { font-weight: 200; }
 
 h3 { margin-bottom: -20px; }
 
-.element {
-	text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
-}
+
 /*----------------------- NAV BAR-----------------------------------*/
 
 
@@ -289,10 +286,7 @@ span { color: #ffa801; }
     text-align: center;
 }
 
-.cheating {
-    margin-left: 10%;
-    float: inline-start;
-}
+
 .cheating a {
     float: inline-start; 
     color: white;
@@ -301,14 +295,16 @@ span { color: #ffa801; }
 }
 
 .social-links{ 
-    list-style: none; 
-   
-}
+    margin-bottom: 10px;
+    margin-right: 15%;
+    margin-left: 23%;
+    list-style: none;
+    position: relative; }
 
-.social-links li{ 
-    margin-left: 5px;
-    margin-right: 30px;
-}
+
+
+.patreon,
+.email { margin-left: 42%;}
 
 i {
     margin-bottom: 10px;
@@ -326,18 +322,21 @@ footer {
     font-size: 80%;
 }
 
-.ion-social-facebook,
-.ion-social-twitter,
-.ion-social-youtube,
-.ion-social-instagram {
+.ion-social-facebook-outline,
+.ion-social-twitter-outline,
+.ion-social-youtube-outline,
+.ion-social-instagram-outline,
+.ion-ios-email-outline {
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
-.ion-social-facebook:hover{ color: #3b5998; }
+.ion-social-facebook-outline:hover{ color: #3b5998; }
 
-.ion-social-twitter:hover { color:#55acee; }
+.ion-social-twitter-outline:hover { color:#55acee; }
 
-.ion-social-youtube:hover { color: #b31217; }
+.ion-social-youtube-outline:hover { color: #b31217; }
 
-.ion-social-instagram:hover { color:#517fa4; }
+.ion-social-instagram-outline:hover { color:#517fa4; }
+
+.ion-ios-email-outline:hover { color: hsl(123, 82%, 42%); }
