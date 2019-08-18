@@ -38,6 +38,28 @@ body {
     float: inline-start;
 }
 
+/*----------------------------*/
+/* FLEXBOX ELEMENTS */
+/*----------------------------*/
+.container { 
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contactParent,
+.watchParent { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+.contactChild,
+.watchChild { margin: auto; }
+
+.contactParent {  }
+
+
 
 /*----------------------------*/
 /* HEADER  */
@@ -134,10 +156,10 @@ input[type=submit],
 
 input[type=submit],
 .btn:hover,
-.btn:active {
-    background-color: #ffa801;
-    color: #423f3f;
-}
+.class="standard"tn:active {
+ class="standard"  background-color: #ffa801;
+ class="standard"  color: #423f3f;
+}class="standard"
 
 .btn-watch:hover,
 .btn-watch:active {
@@ -306,12 +328,15 @@ span { color: #ffa801; }
     list-style: none;
     position: relative; }
 
+.contactParent {
+    display: inline;
+}
 
-
-.patreon,
-.email {
-    max-width: 15ch;
-    margin-left: 42%;}
+.contactChild { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 i {
     margin-bottom: 10px;
