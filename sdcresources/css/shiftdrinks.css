@@ -17,6 +17,7 @@ body {
     font-weight: 300;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
+    text-align: center;
 }
 
 
@@ -55,7 +56,6 @@ body {
 }
 
 .contactChild {
-    flex: 1;
     margin: auto;
 }
 
@@ -63,7 +63,8 @@ body {
 /* GRID ELEMENTS */
 /*----------------------------*/
 
-.watchParent {
+.watchParent,
+.socialParent {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
@@ -71,22 +72,26 @@ body {
     justify-items: center;
 }
 
-.watchChildOne {
+.watchChildOne,
+.socialChildOne {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
 }
 
-.watchChildTwo {
+.watchChildTwo,
+.socialChildTwo {
     grid-column: 2 / 2;
     grid-row: 1 / 2;
 }
 
-.watchChildThree {
+.watchChildThree,
+.socialChildThree {
     grid-column: 1 / 2;
     grid-row: 2 / 2;
 }
 
-.watchChildFour {
+.watchChildFour,
+.socialChildFour {
     grid-column: 2 / 2;
     grid-row: 2 / 2;
 }
@@ -346,25 +351,18 @@ span { color: #ffa801; }
 
 
 .cheating a {
-    float: inline-start; 
+    float: initial;
     color: white;
     text-align: center;
     text-decoration: none;
 }
 
-.social-links li{ 
-    margin-bottom: 10px;
-    margin-right: 15%;
-    margin-left: 23%;
-    list-style: none;
-    position: relative; }
-
 .contactParent {
-    display: inline;
+    list-style: none;
+    display: flex;
 }
 
 .contactChild { 
-    display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
 }
@@ -409,3 +407,5 @@ footer {
 .ion-social-instagram-outline:hover { color:#517fa4; }
 
 .ion-ios-email-outline:hover { color: hsl(123, 82%, 42%); }
+
+.ion-ios-heart-outline:hover { color: hsl(10, 82%, 42%); }
