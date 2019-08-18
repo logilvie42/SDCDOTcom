@@ -47,21 +47,49 @@ body {
     flex-wrap: wrap;
 }
 
-.contactParent,
-.watchParent { 
+.contactParent {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around
+    align-content: center;
 }
 
-.contactChild,
-.watchChild { 
+.contactChild {
     flex: 1;
-    margin: auto; }
+    margin: auto;
+}
 
-.contactParent{ align-content: center; }
+/*----------------------------*/
+/* GRID ELEMENTS */
+/*----------------------------*/
 
+.watchParent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    justify-items: center;
+}
 
+.watchChildOne {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.watchChildTwo {
+    grid-column: 2 / 2;
+    grid-row: 1 / 2;
+}
+
+.watchChildThree {
+    grid-column: 1 / 2;
+    grid-row: 2 / 2;
+}
+
+.watchChildFour {
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+}
 
 /*----------------------------*/
 /* HEADER  */
@@ -88,6 +116,7 @@ header {
 .blurb { 
     text-align: center;
     max-width: 75ch;
+    display: contents;
 }
 
 .truncate {
