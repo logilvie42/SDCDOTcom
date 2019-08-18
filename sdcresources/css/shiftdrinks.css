@@ -66,6 +66,11 @@ header {
     max-width: 75ch;
 }
 
+.truncate {
+    text-align: center;
+    max-width: 15ch;
+}
+
 /*----------------------------*/
 /* HEADINGS  */
 /*----------------------------*/
@@ -86,7 +91,7 @@ h2 {
     font-size: calc(70px + 0.5vw);
 }
 
-h1 { font-weight: 400; }
+h1 { font-weight: 100; }
 
 h2 { font-weight: 200; }
 
@@ -304,7 +309,9 @@ span { color: #ffa801; }
 
 
 .patreon,
-.email { margin-left: 42%;}
+.email {
+    max-width: 15ch;
+    margin-left: 42%;}
 
 i {
     margin-bottom: 10px;
