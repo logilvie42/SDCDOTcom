@@ -374,6 +374,7 @@ span { color: #ffa801; }
 }
 
 
+
 i {
     color: #ffa801;
     font-size: calc(100px + 0.5vw);
@@ -410,4 +411,4 @@ footer {
 
 .ion-ios-email-outline:hover { color: hsl(123, 82%, 42%); }
 
-.ion-ios-heart-outline:hover { color: #ff9100; }
+.ion-ios-heart-outline:hover { color: #d029f1; }
