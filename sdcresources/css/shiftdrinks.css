@@ -36,8 +36,8 @@ body {
 /*----------------------------*/
 
 .cheating {
-    margin-left: 10%;
     float: inline-start;
+    text-align: center;
 }
 
 /*----------------------------*/
@@ -62,9 +62,6 @@ body {
     justify-items: center;
 }
 
-
-
-
 .watchChildOne,
 .socialChildOne {
     grid-column: 1 / 2;
@@ -88,14 +85,15 @@ body {
 }
 
 
-
 .contactParent { 
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
    
 }
+
+.contactChild { margin: auto; }
 
 
 
