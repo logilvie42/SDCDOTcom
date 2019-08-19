@@ -29,6 +29,8 @@ body {
     visibility: hidden;
 }
 
+
+
 /*----------------------------*/
 /* REUSEABLE COMPONENTS */
 /*----------------------------*/
@@ -88,7 +90,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-content: flex-start;
+   
 }
 
 
@@ -116,8 +118,18 @@ header {
     border-radius: 100%;
 }
 
+.sdc-text-box h1 { padding-bottom: 25px; }
+
+
 .blurb { 
     display: contents;
+}
+
+.blurb h4 {
+    margin: auto;
+    padding-bottom: 25px;
+    max-width: 55ch;
+
 }
 
 .truncate {
@@ -338,7 +350,10 @@ span { color: #ffa801; }
     height: 100vh; 
 }
 
-.contact-sdc h2{ color: #ffa801;}
+.contact-sdc h2{ 
+    color: #ffa801;
+
+}
 .contact-sdc h4{ 
     font-weight: 900;
     font-size: calc(15px + 0.5vw);
@@ -347,30 +362,18 @@ span { color: #ffa801; }
 
 
 .contact-sdc a {
-    float: inline-start; 
+    float: initial; 
     color: white;
     text-align: center;
+    font-weight: 700;
     text-decoration: none;
 }
 
-.cheating a {
-    float: initial;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-}
-
-.social-links li{ 
-    margin-bottom: 10px;
-    margin-right: 15%;
-    margin-left: 23%;
-    list-style: none;
-    position: relative; }
 
 i {
-    margin-bottom: 10px;
     color: #ffa801;
     font-size: calc(100px + 0.5vw);
+    justify-content: center;
 }
 
 /*----------------------------*/
@@ -387,7 +390,8 @@ footer {
 .ion-social-twitter-outline,
 .ion-social-youtube-outline,
 .ion-social-instagram-outline,
-.ion-ios-email-outline {
+.ion-ios-email-outline,
+.ion-ios-heart-outline{
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
@@ -401,3 +405,5 @@ footer {
 .ion-social-instagram-outline:hover { color:#517fa4; }
 
 .ion-ios-email-outline:hover { color: hsl(123, 82%, 42%); }
+
+.ion-ios-heart-outline:hover { color: #ff9100; }
